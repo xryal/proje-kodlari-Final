@@ -12,7 +12,7 @@ START-OF-SELECTION.
         PERFORM ddic_merged_to_alv.
 
       ELSEIF so_d1 IS INITIAL AND so_d4 IS INITIAL AND p_d6 IS NOT INITIAL .
-        MESSAGE 'Lütfen Fatura Detay Tablosuna Ait Fatura ID Girişi Yapınız.' TYPE 'I'.
+        MESSAGE 'Lütfen Fatura Detay Tablosuna Ait Fatura ID Girişi Yapınız.' TYPE 'I' DISPLAY LIKE 'A'.
 
       ELSEIF so_d1 IS INITIAL AND so_d4 IS NOT INITIAL AND p_d6 IS INITIAL .
         MESSAGE 'Fatura Detay Tablosunda İlgili Faturaların Id''sine Ait Tüm Ürünlerin Bilgileri Getiriliyor.' TYPE 'I'.
@@ -27,13 +27,13 @@ START-OF-SELECTION.
         PERFORM ddic_header_to_alv.
 
       ELSEIF so_d1 IS NOT INITIAL AND so_d4 IS INITIAL AND p_d6 IS NOT INITIAL .
-        MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I'.
+        MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I' DISPLAY LIKE 'A'.
 
       ELSEIF so_d1 IS NOT INITIAL AND so_d4 IS NOT INITIAL AND p_d6 IS INITIAL .
-        MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I'.
+        MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I' DISPLAY LIKE 'A'.
 
       ELSEIF so_d1 IS NOT INITIAL AND so_d4 IS NOT INITIAL AND p_d6 IS NOT INITIAL .
-        MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I'.
+        MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I' DISPLAY LIKE 'A'.
       ENDIF.
 
     WHEN 1002.
