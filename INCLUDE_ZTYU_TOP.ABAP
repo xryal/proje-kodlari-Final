@@ -17,7 +17,7 @@ TABLES zab_bill_titem.
 "Template File İçin selection screen butonu tanımlaması.
 TABLES sscrfields.
 
-" Örnek excel dosyası için internal tablo ve Structure yapısı.
+"Örnek excel dosyası için internal tablo ve Structure yapısı.
 DATA : lt_excel_format TYPE TABLE OF zab_bill_excel_t WITH HEADER LINE,
        ls_excel_format TYPE zab_bill_excel_t.
 
@@ -29,7 +29,7 @@ DATA : gt_fcat   TYPE lvc_t_fcat,
        gs_fcat   TYPE lvc_s_fcat,
        gs_layout TYPE lvc_s_layo.
 
-  "EXCEL DEĞİŞİMLERİ İÇİN SAYICI.
+"EXCEL DEĞİŞİMLERİ İÇİN SAYICI.
 TYPES : BEGIN OF ty_sayici,
           gv_append_sayici_h       TYPE int2,
           gv_append_sayici_i       TYPE int2,
@@ -50,9 +50,6 @@ DATA : lt_list TYPE slis_t_listheader,
 DATA : gt_events TYPE slis_t_event,
        gs_event  TYPE slis_alv_event.
 
-
-
-
 "REPTEXT UZUNLUĞUNA GÖRE ALV BAŞLIKLARINI DÜZENLEDİĞİM DEĞİŞKEN
 DATA    gv_reptext TYPE i.
 
@@ -65,28 +62,23 @@ DATA : gt_faturat_head TYPE STANDARD TABLE OF zab_bill_thead,
        gs_faturat_head TYPE  zab_bill_thead,
        gs_faturat_item TYPE  zab_bill_titem.
 
-
 "Excelden gelen veriyi Structuredan Tabloya Aktarmak İçin Kullanılan tanımlamalar.
 DATA : gt_faturat_excel TYPE STANDARD TABLE OF zab_bill_excel_t,
        gs_faturat_excel TYPE zab_bill_excel_t.
-
 
 "Excelden gelen veriyi Bölmek için
 DATA : gs_faturat_hexcel TYPE  zab_bill_thead_s,
        gs_faturat_iexcel TYPE  zab_bill_titem_s.
 
-
 "Excel Verisinin LT_FILE'dan alınıp DDIC'de tanımlanan structure tipinde tutulduğu tanımlamaları.
 DATA : gt_faturat_excel_s TYPE STANDARD TABLE OF zab_bill_excel,
        gs_faturat_excel_s TYPE zab_bill_excel.
-
 
 "DDIC TABLODAN ALV'ye GEÇERKEN GEREKLİ OLAN  STRUCTURE TANIMLAMALARI
 DATA : gt_faturat_head_s TYPE STANDARD TABLE OF zab_bill_thead_s,
        gt_faturat_item_s TYPE STANDARD TABLE OF zab_bill_titem_s,
        gs_faturat_head_s TYPE zab_bill_thead_s,
        gs_faturat_item_s TYPE zab_bill_titem_s.
-
 
 "Join için gerekli structure tanımlamaları(alvye basmak için)
 DATA : lt_fatura_detay_s TYPE STANDARD TABLE OF zab_bill_join_s,
