@@ -151,6 +151,8 @@ FORM user_command USING r_ucomm     LIKE sy-ucomm
                 CLEAR gs_faturat_item_s.
                 CLEAR gs_faturat_iexcel.
 
+                CONTINUE.
+
               "aynı ikinci key varsa verinin KEY olmayan kısmını kontrol ediyorum(iki key alanını da kontrol ettik şimdi sadece gövde verisini kontrol etmek kalıyor) eğer ki farklıysa mevcut data ile değiştiriyorum.
               ELSEIF sy-subrc LT 1 AND gs_faturat_iexcel NE gs_faturat_item_s.
 
