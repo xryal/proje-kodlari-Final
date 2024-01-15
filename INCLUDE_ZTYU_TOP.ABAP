@@ -72,9 +72,7 @@ DATA : gt_faturat_excel TYPE STANDARD TABLE OF zab_bill_excel_t,
 
 
 "Excelden gelen veriyi Bölmek için
-DATA : gt_faturat_hexcel TYPE STANDARD TABLE OF zab_bill_thead_s,
-       gt_faturat_iexcel TYPE STANDARD TABLE OF zab_bill_titem_s,
-       gs_faturat_hexcel TYPE  zab_bill_thead_s,
+DATA : gs_faturat_hexcel TYPE  zab_bill_thead_s,
        gs_faturat_iexcel TYPE  zab_bill_titem_s.
 
 
