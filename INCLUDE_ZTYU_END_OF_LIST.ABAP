@@ -14,25 +14,25 @@ FORM end_of_list_excel_changes.
 
   CLEAR ls_list.
   ls_list-typ = 'S'.
-  ls_list-key = 'Header Tablosuna Eklenen Satır Sayısı: '.
+  ls_list-key = 'Header Tablosu Eklenen Satır: '.
   ls_list-info = gs_sayici-gv_append_sayici_h .
   APPEND ls_list TO lt_list.
 
   CLEAR ls_list.
   ls_list-typ = 'S'.
-  ls_list-key = 'Item Tablosuna Eklenen Satır Sayısı : '.
+  ls_list-key = 'Item Tablosu Eklenen Satır: '.
   ls_list-info = gs_sayici-gv_append_sayici_i.
   APPEND ls_list TO lt_list.
 
   CLEAR ls_list.
   ls_list-typ = 'S'.
-  ls_list-key = 'Header Tablosunda Değiştirilen Satır Sayısı : '.
+  ls_list-key = 'Header Tablosu Değişen Satır: '.
   ls_list-info = gs_sayici-gv_modify_sayici_h .
   APPEND ls_list TO lt_list.
 
   CLEAR ls_list.
   ls_list-typ = 'S'.
-  ls_list-key = 'Item Tablosunda Değiştirilen Satır Sayısı : '.
+  ls_list-key = 'Item Tablosu Değişen Satır: '.
   ls_list-info = gs_sayici-gv_modify_sayici_i .
   APPEND ls_list TO lt_list.
 
