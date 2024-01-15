@@ -65,7 +65,7 @@ FORM user_command USING r_ucomm     LIKE sy-ucomm
                 "ve eğer ki item tablosunda da ikinci key alanı boş değilse
                 IF  gs_faturat_iexcel-ab_faturalanan_urun1 IS NOT INITIAL .
 
-                  "direk veriyi ekliyorum ve sayıcısını 1 arttırıyorum.
+                  ""excelden gelen item verisini direk ekliyorum ve sayıcısını 1 arttırıyorum.
                   APPEND gs_faturat_iexcel TO gt_faturat_item_s.
                   gs_sayici-gv_append_sayici_i = gs_sayici-gv_append_sayici_i + 1.
 
