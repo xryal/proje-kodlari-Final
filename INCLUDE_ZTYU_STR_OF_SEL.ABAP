@@ -34,6 +34,7 @@ START-OF-SELECTION.
       ELSEIF so_d1 IS NOT INITIAL AND so_d4 IS NOT INITIAL AND p_d6 IS NOT INITIAL .
         MESSAGE 'Hem Fatura Genel Bilgiler Tablosundan Hem de Fatura Detay Tablosundan Key Alan Seçimi Yapamazsınız. Lütfen Tek Tablo Özelinde Seçim Yapınız.' TYPE 'I'.
       ENDIF.
+
     WHEN 1002.
       FIND '.xlsx' IN p_fname.
       IF p_fname IS INITIAL.
@@ -48,4 +49,5 @@ START-OF-SELECTION.
           PERFORM alv_generator_excel.
         ENDIF.
       ENDIF.
+
   ENDCASE.
