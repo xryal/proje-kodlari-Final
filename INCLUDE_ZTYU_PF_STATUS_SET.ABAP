@@ -81,7 +81,7 @@ FORM user_command USING r_ucomm     LIKE sy-ucomm
               CONTINUE.
 
             "eğer ki keyleri örtüşen veriler varsa KEY olmayan kısmını kontrol ediyorum, farklıysa mevcut data ile değiştiriyorum. Farklı bir
-            "tabloda, bu bozuk olup olmadığı bilnmeyen datalar tutulabilir ama bu case için MODIFY kullanmayı şimdilik yeterli görüyorum yine de bir sayaç koyup değişen dataların bilgilerini döndürüyorum.
+            "tabloda, bu bozuk olup olmadığı bilnmeyen datalar tutulabilir ama bu case için MODIFY kullanmayı şimdilik yeterli görüyorum yine de bir sayaç koyup değişen dataların sayısını döndürüyorum.
             ELSEIF  sy-subrc LT 1 AND gs_faturat_hexcel NE gs_faturat_head_s.
 
               MODIFY gt_faturat_head_s FROM gs_faturat_hexcel TRANSPORTING
