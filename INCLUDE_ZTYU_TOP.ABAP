@@ -8,7 +8,7 @@ TABLES zab_bill_thead.
 "Item Tablom
 TABLES zab_bill_titem.
 
-"Template File İçin
+"Template File İçin selection screen butonu tanımlaması.
 TABLES sscrfields.
 
 " Örnek excel dosyası için internal tablo ve Structure yapısı.
