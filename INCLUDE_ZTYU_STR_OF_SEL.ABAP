@@ -5,6 +5,7 @@
 START-OF-SELECTION.
 
   CASE tb1-dynnr.
+
     WHEN 1001.
       IF so_d1 IS INITIAL AND so_d4 IS INITIAL AND p_d6 IS INITIAL.
         MESSAGE 'Key Alan Seçimi Yapmadınız Fatura Tablosunda İlgili Faturalar Ve Faturalara Bağlı Tüm  Ürünlerin Bilgileri Getiriliyor.' TYPE 'I'.
