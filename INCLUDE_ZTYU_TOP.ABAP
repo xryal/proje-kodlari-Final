@@ -2,6 +2,12 @@
 *& Include          ZTYU_TOP
 *&---------------------------------------------------------------------*
 
+*----------------------------------------------------------------------------------
+* Not: Structure Tanımlamalarımı Dictionary İçerisinden yaptım.
+* Header Tablosu için DDIC structure ismi: zab_bill_thead_s
+* Item Tablosu için DDIC structure ismi: zab_bill_titem_s
+*----------------------------------------------------------------------------------
+
 "Header Tablom
 TABLES zab_bill_thead.
 
@@ -52,12 +58,6 @@ DATA    gv_reptext TYPE i.
 
 "POP-UP EKRANINDAN DONEN VERİYİ TUTUYOR
 DATA popup_return(1) TYPE c.
-
-*----------------------------------------------------------------------------------
-* Not: Structure Tanımlamalarımı Dictionary İçerisinden yaptım.
-* Header Tablosu için DDIC structure ismi: zab_bill_thead_s
-* Item Tablosu için DDIC structure ismi: zab_bill_titem_s
-*----------------------------------------------------------------------------------
 
 "DDIC tablodan internal tabloya aktarım için gerekli internal tablo tanımlamaları.
 DATA : gt_faturat_head TYPE STANDARD TABLE OF zab_bill_thead,
