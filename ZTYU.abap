@@ -16,6 +16,7 @@ INCLUDE ZTYU_init.
 INCLUDE ZTYU_at_slc_scr_val.
 INCLUDE ZTYU_at_slc_scr.
 INCLUDE ZTYU_slct_scr_out.
+INCLUDE ZTYU_STR_OF_SEL.
 
 "FPICKER FORM
 INCLUDE ZTYU_fpicker.
