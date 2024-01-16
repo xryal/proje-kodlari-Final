@@ -18,6 +18,11 @@
 
 ![image](https://github.com/xryal/proje-kodlari-Final/assets/81656700/0ffa4a86-92fe-4534-8ccd-9ac84b97d5c6)
 
+Ekstra olarak dinamik ekran tasarımı yaptım böylelikle sadece header tablosundan veri çekmek istediğimizde ilk radio butonu seçmemiz ve veri aralığı girmemiz yeterli olacaktır.
+
+![image](https://github.com/xryal/proje-kodlari-Final/assets/81656700/19a4eea5-aa6e-4f1e-9710-e2e36d0d8983)
+
+
 - İkinci Tabta - File upload  alanı olacaktır.
  
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/7af33aa6-66ab-4e78-8bf0-54a56a042e2d)
