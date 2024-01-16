@@ -14,11 +14,11 @@
 
 ## 2. Selection Screen ekranı tasarlanacaktır. Ekranda Tab Panel oluşturulacak.
 
-- 1. Tabta - Sizin oluşturduğunuz 2 adet Z'li tablonun key alanları yer alacaktır.
+- birinci Tabta - Sizin oluşturduğunuz 2 adet Z'li tablonun key alanları yer alacaktır.
 
-![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/a75ec4fe-5ab3-4a53-867b-9ef56624cad1)
+![image](https://github.com/xryal/proje-kodlari-Final/assets/81656700/0ffa4a86-92fe-4534-8ccd-9ac84b97d5c6)
 
-- 2. Tabta - File upload  alanı olacaktır.
+- İkinci Tabta - File upload  alanı olacaktır.
  
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/7af33aa6-66ab-4e78-8bf0-54a56a042e2d)
 
