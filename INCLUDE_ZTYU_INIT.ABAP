@@ -5,7 +5,7 @@
 INITIALIZATION.
 
   "TAB AYARLAMALARI
-  tb1-activetab = '1001'.
+  tb1-activetab = 'ONE'.
   tb1-dynnr  = 1001.
   tb1-prog   = sy-repid.
 
