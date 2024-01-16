@@ -47,7 +47,7 @@ Ekstra olarak dinamik ekran tasarımı yaptım böylelikle sadece header tablosu
 
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/679e5d4d-58ef-4229-8150-200dd5e4ec8b)
 
-- Tüm Tablomun ilgili sayı değeri aralığındaki joinlenmiş Verisinin spesifik malzeme bilgisini Çekmek için fatura detay tablosunun id'sine ve nalzeme id'sine Giriş Yapıyoruz,
+- Tüm Tablomun ilgili sayı değeri aralığındaki joinlenmiş Verisinin spesifik malzeme bilgisini Çekmek için fatura detay tablosunun id'sine ve malzeme id'sine Giriş Yapıyoruz,
 
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/001de267-4051-48a1-bcd4-9c42fda41e53)
 
