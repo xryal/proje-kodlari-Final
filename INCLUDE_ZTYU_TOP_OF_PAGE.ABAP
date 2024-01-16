@@ -7,7 +7,6 @@ FORM top_of_page.
   REFRESH lt_list.
 
   DATA: lv_kullanici(50) TYPE c,
-        lv_tarih(50)     TYPE c,
         lv_program(50)   TYPE c,
         lv_saat(50)      TYPE c,
         lv_lines(50)     TYPE c.
@@ -60,7 +59,6 @@ FORM top_of_page_detail.
   REFRESH lt_list.
 
   DATA: lv_kullanici(50) TYPE c,
-        lv_tarih(50)     TYPE c,
         lv_program(50)   TYPE c,
         lv_saat(50)      TYPE c,
         lv_lines(50)     TYPE c.
@@ -113,7 +111,6 @@ FORM top_of_page_excel.
   REFRESH lt_list.
 
   DATA: lv_kullanici(50) TYPE c,
-        lv_tarih(50)     TYPE c,
         lv_program(50)   TYPE c,
         lv_saat(50)      TYPE c,
         lv_lines(50)     TYPE c.
@@ -121,6 +118,35 @@ FORM top_of_page_excel.
   CLEAR ls_list.
   ls_list-typ = 'H'.
   ls_list-info = 'Excel Verisindeki Header Ve Item Tablolarına Ait Veri'.
+  APPEND ls_list TO lt_list.
+
+  CLEAR ls_list.
+  ls_list-typ = 'S'.
+  ls_list-key = 'Excel Dosyası :'.
+  SPLIT p_fname AT '\' INTO TABLE t_value.
+  DESCRIBE TABLE t_value LINES v_lines.
+  v_cnt# = v_lines - 1.
+  IF v_cnt# EQ 1 .
+    ls_list-info = t_value[ 2 ].
+  ELSEIF v_cnt# EQ 2 .
+    ls_list-info = t_value[ 3 ].
+  ELSEIF v_cnt# EQ 3 .
+    ls_list-info = t_value[ 4 ].
+  ELSEIF v_cnt# EQ 4 .
+    ls_list-info = t_value[ 5 ].
+  ELSEIF v_cnt# EQ 5 .
+    ls_list-info = t_value[ 6 ].
+  ELSEIF v_cnt# EQ 6 .
+    ls_list-info = t_value[ 7 ].
+  ELSEIF v_cnt# EQ 7 .
+    ls_list-info = t_value[ 8 ].
+  ELSEIF v_cnt# EQ 8 .
+    ls_list-info = t_value[ 9 ].
+  ELSEIF v_cnt# EQ 9 .
+    ls_list-info = t_value[ 10 ].
+  ELSEIF v_cnt# EQ 10 .
+    ls_list-info = t_value[ 11 ].
+  ENDIF.
   APPEND ls_list TO lt_list.
 
   lv_kullanici = sy-uname.
