@@ -6,11 +6,11 @@ FORM top_of_page.
 
   REFRESH lt_list.
 
-  DATA: lv_kullanici(100) TYPE c,
-        lv_tarih(100)     TYPE c,
-        lv_program(100)   TYPE c,
-        lv_saat(100)      TYPE c,
-        lv_lines(100)     TYPE c.
+  DATA: lv_kullanici(50) TYPE c,
+        lv_tarih(50)     TYPE c,
+        lv_program(50)   TYPE c,
+        lv_saat(50)      TYPE c,
+        lv_lines(50)     TYPE c.
 
   CLEAR ls_list.
   ls_list-typ = 'H'.
