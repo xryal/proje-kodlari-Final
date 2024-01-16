@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 
 AT SELECTION-SCREEN.
-  CASE sy-dynnr. "SELECTION SCREEN NUMBER
+  CASE sy-dynnr. "SELECTION SCREEN NUMARASI
     WHEN 1000.
 
       CASE sscrfields-ucomm.
