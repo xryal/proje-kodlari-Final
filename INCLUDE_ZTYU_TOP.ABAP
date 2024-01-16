@@ -41,6 +41,22 @@ TYPES : BEGIN OF ty_sayici,
 DATA : gs_sayici TYPE ty_sayici.
 
 
+
+
+"Excel Dosyasının Adını Almak için
+DATA : gv_excel_counter TYPE int2,
+       gv_tutucu1(50)   TYPE c,
+       gv_tutucu2(50)   TYPE c,
+       gv_tutucu3(50)   TYPE c,
+       gv_tutucu4(50)   TYPE c,
+       gv_tutucu5(50)   TYPE c,
+       gv_tutucu6(50)   TYPE c,
+       gv_tutucu7(50)   TYPE c,
+       t_value          TYPE STANDARD TABLE OF string,
+       v_lines          TYPE i,
+       v_cnt#           TYPE i.
+
+
 "REUSE ALV İÇİN TOP OF PAGE DEĞİŞKENLERİ
 DATA : lt_list TYPE slis_t_listheader,
        ls_list TYPE slis_listheader.
