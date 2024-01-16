@@ -9,7 +9,7 @@ FORM end_of_list_excel_changes.
 
   CLEAR ls_list.
   ls_list-typ = 'H'.
-  ls_list-info = 'Değiştirilen Satır Sayıcısı'.
+  ls_list-info = 'Eklenen Ve Değişen Satır Sayıcı Paneli'.
   APPEND ls_list TO lt_list.
 
 
