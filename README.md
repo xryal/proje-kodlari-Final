@@ -132,7 +132,7 @@ a. 1. Buton
 
 b. 2. Buton
 
-- 2. butona bastığımız zaman Header tablomuza ait bakım ekranının transaction kodu çağırılmaktadır.
+- ikinci butona bastığımız zaman Header tablomuza ait bakım ekranının transaction kodu çağırılmaktadır.
 
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/28b43980-f043-4c4a-abdd-038bd45a54f8)
 
@@ -140,7 +140,7 @@ b. 2. Buton
 
 c. 3. Buton
 
-- 3. butona bastığımız zaman Item tablomuza ait bakım ekranının transaction kodu çağırılmaktadır.
+- Üçüncü butona bastığımız zaman Item tablomuza ait bakım ekranının transaction kodu çağırılmaktadır.
  
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/45c15c2b-b6f0-4f82-85f4-d4d7c529320e)
 
