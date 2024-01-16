@@ -2,6 +2,8 @@
 
 ## 1. Projede Z’li 2 adet tablo oluşturulacaktır. Bu tabloların biri header biri item tablosu olacak.
 
+## EKRAN GÖRÜNTÜLERİ NET DEĞİL İSE ÜSTÜNE TIKLAYIP FARKLI BİR PENCEREDE İNCELEYEBİLİRSİNİZ...
+
 ### Header Tablosu
 
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/524eb9ed-348a-4a71-b73e-d8a6a8fd6bb2)
