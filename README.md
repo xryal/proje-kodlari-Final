@@ -30,7 +30,7 @@
 
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/387c2a33-016a-4b80-8483-a29d31964d0e)
 
-- Tüm Tablomun joinlenmiş Verisini Çekmek İçin Hiçbir Giriş Yapmıyoruz,
+- Tüm Tablolarımın joinlenmiş(birleştirilmiş) Verisini Çekmek İçin Hiçbir Giriş Yapmıyoruz,
 
 ![image](https://github.com/xryal/proje-kodlar-versiyon-15/assets/81656700/0c8f198c-95bb-4adc-bc3f-3c70909897ea)
 
