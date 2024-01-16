@@ -14,15 +14,9 @@ FORM create_excel_format.
 
 * Excel Dosyası
   CALL METHOD OF excel 'WORKBOOKS' = workbook.
-
-  SET PROPERTY OF excel 'VISIBLE' = 0 .
-
   SET PROPERTY OF excel 'VISIBLE' = 1 .
-
   CALL METHOD OF workbook 'add'.
-
   CALL METHOD OF excel 'Worksheets' = sheet EXPORTING #1 = 1.
-
   CALL METHOD OF sheet 'Activate'.
 
   " Excel Başlık Satırı
@@ -150,8 +144,5 @@ FORM create_excel_format.
   FREE OBJECT cell.
   FREE OBJECT workbook.
   FREE OBJECT excel.
-
-  excel-handle = -1.
-
   FREE OBJECT row.
 ENDFORM.
