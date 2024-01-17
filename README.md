@@ -1,4 +1,5 @@
 # proje-kodlar-versiyon-FINAL
+## zab_package içerisindeki zab_p70 üzerinden veya ZTYU programı üzerinden Projeme Erişebilirsiniz.
 ## EKRAN GÖRÜNTÜLERİ NET DEĞİL İSE ÜSTÜNE TIKLAYIP FARKLI BİR PENCEREDE İNCELEYEBİLİRSİNİZ...
 
 ## 1. Projede Z’li 2 adet tablo oluşturulacaktır. Bu tabloların biri header biri item tablosu olacak.
