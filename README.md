@@ -1,8 +1,9 @@
 # proje-kodlar-versiyon-FINAL
+## EKRAN GÖRÜNTÜLERİ NET DEĞİL İSE ÜSTÜNE TIKLAYIP FARKLI BİR PENCEREDE İNCELEYEBİLİRSİNİZ...
 
 ## 1. Projede Z’li 2 adet tablo oluşturulacaktır. Bu tabloların biri header biri item tablosu olacak.
 
-## EKRAN GÖRÜNTÜLERİ NET DEĞİL İSE ÜSTÜNE TIKLAYIP FARKLI BİR PENCEREDE İNCELEYEBİLİRSİNİZ...
+
 
 ### Header Tablosu
 
