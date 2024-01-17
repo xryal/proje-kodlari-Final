@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Include          ZGHJ_TOP_OF_PAGE
+*& Include          ZTYU_TOP_OF_PAGE
 *&---------------------------------------------------------------------*
 
 FORM top_of_page.
@@ -51,7 +51,7 @@ FORM top_of_page.
 ENDFORM.
 
 *&---------------------------------------------------------------------*
-*& Include          ZGHJ_TOP_OF_PAGE_DETAIL
+*& Include          ZTYU_TOP_OF_PAGE_DETAIL
 *&---------------------------------------------------------------------*
 
 FORM top_of_page_detail.
@@ -103,7 +103,7 @@ FORM top_of_page_detail.
 ENDFORM.
 
 *&---------------------------------------------------------------------*
-*& Include          ZGHJ_TOP_OF_PAGE_EXCEL
+*& Include          ZTYU_TOP_OF_PAGE_EXCEL
 *&---------------------------------------------------------------------*
 
 FORM top_of_page_excel.
