@@ -18,7 +18,11 @@
 
 ![image](https://github.com/xryal/proje-kodlari-Final/assets/81656700/0ffa4a86-92fe-4534-8ccd-9ac84b97d5c6)
 
-Ekstra olarak dinamik ekran tasarımı yaptım böylelikle sadece header tablosundan veri çekmek istediğimizde ilk radio butonu seçmemiz ve veri aralığı girmemiz yeterli olacaktır.
+Burada ekstradan sadece header tablosundan da okuma yapabilmesi amacıyla Dinamik bir
+ekran tasarımı yaptım, böylelikle kişi isterse hem Header(Invoice Info) hem de Header ve
+Item tablosunun birleşimini(Invoice Detail Info) ALV tablosunda görebilecek şekilde bir
+kurgu yapmış oldum. Farklı bir case için bu tarz Dinamik ekran yapıları kullanıcı deneyimi
+açısından daha anlaşılır olacağını düşünerek böyle bir kod tasarımı yaptım
 
 ![image](https://github.com/xryal/proje-kodlari-Final/assets/81656700/19a4eea5-aa6e-4f1e-9710-e2e36d0d8983)
 
