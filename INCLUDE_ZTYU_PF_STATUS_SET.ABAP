@@ -189,7 +189,7 @@ FORM user_command USING r_ucomm     LIKE sy-ucomm
           MOVE-CORRESPONDING gt_faturat_head_s TO gt_faturat_head.
           MOVE-CORRESPONDING gt_faturat_item_s TO gt_faturat_item.
 
-          "yoksa burda modify işlemi gerçekleşemiyor, convert hatası veriyor ve MODIFY ZTABLE FROM TABLE ITAB syntaxında casting olmadığı için bu yola başvurdum.
+          "MODIFY ZTABLE FROM TABLE ITAB syntaxında casting olmadığı için.
           MODIFY zab_bill_thead FROM TABLE gt_faturat_head.
 
           IF sy-subrc LT 1.
